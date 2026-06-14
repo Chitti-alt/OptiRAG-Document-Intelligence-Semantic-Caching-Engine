@@ -1,0 +1,40 @@
+# =========================
+# Secrets & Configurations
+# =========================
+# NEVER commit your API keys. This is the most important line.
+.env
+
+# =========================
+# Virtual Environments
+# =========================
+# Ignores the folder containing all your downloaded pip packages
+venv/
+env/
+
+# =========================
+# Database & Data
+# =========================
+# Ignores the locally generated vector database (can get very large)
+vector_db/
+
+# Ignores large textbook PDFs, but keeps the data folder itself
+data/*.pdf
+
+# =========================
+# Python Cache
+# =========================
+# Ignores compiled bytecode files generated automatically by Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# OS & IDE System Files
+# =========================
+# Mac system files
+.DS_Store
+
+# VS Code and JetBrains IDE settings
+.vscode/
+.idea/
